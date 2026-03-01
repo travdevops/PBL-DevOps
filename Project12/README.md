@@ -54,7 +54,7 @@ Paste the code instructions below into the `env-vars.yml` file.
 
 <img width="743" alt="env-varsyml" src="https://github.com/travdevops/PBL-DevOps/assets/137777644/704745a8-0c44-49cd-a051-f2747e32069d">
 
-### Notice 3 things to notice here:
+### Notice 3 things here:
 
 1. We used `include_vars` syntax instead of `include`, this is because Ansible developers decided to separate different features of the module. From Ansible version 2.8, the `include` module is deprecated and variants of `include_*` must be used. These are:
 
