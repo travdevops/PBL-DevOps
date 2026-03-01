@@ -109,7 +109,7 @@ If this is a fresh directory. Run these commands and get the latest from the git
 
 <img width="1030" alt="ans-gala-geer-mysql" src="https://github.com/travdevops/PBL-DevOps/assets/137777644/2e75f42a-4f94-4900-bbe0-968eed6283ae">
 
-**Note that.** The file `geerlingguy.mysql` downloaded successfully but extracted to `.ansible` directory. That happened because the `.ansible` is the default dorectory for ansible roles. To avoid that and for the file to extract in the current working directory. Parse in a `-p` flag in the command. 
+**Note that.** The file `geerlingguy.mysql` downloaded successfully but extracted to `.ansible` directory. That happened because the `.ansible` is the default directory for ansible roles. To avoid that and for the file to extract in the current working directory. Parse in a `-p` flag in the command. 
 
 - Move the file back to our current working directory `~/ansible-config-mgt/roles`
 
